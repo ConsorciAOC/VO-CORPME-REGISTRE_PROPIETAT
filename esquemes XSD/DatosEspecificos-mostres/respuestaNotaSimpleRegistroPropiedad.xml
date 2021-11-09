@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<respuestaNotaSimpleRegistroPropiedad xmlns="http://www.aocat.net/registradors">
+	<datosRegistrales>
+		<registro>0</registro>
+		<municipio>0</municipio>
+		<provincia>0</provincia>
+		<seccion>0</seccion>
+		<finca>0</finca>
+		<subfinca>String</subfinca>
+		<duplicado>String</duplicado>
+		<datosAdicionales>String</datosAdicionales>
+	</datosRegistrales>
+	<observaciones>String</observaciones>
+	<codigoResultado>0</codigoResultado>
+	<literalError>String</literalError>
+	<informacion>
+		<tipoRespuesta>0</tipoRespuesta>
+		<registro>0</registro>
+		<identificador>String</identificador>
+		<fichero>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</fichero>
+		<texto>String</texto>
+	</informacion>
+</respuestaNotaSimpleRegistroPropiedad>

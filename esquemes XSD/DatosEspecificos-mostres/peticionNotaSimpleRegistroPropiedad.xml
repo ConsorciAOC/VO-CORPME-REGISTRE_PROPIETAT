@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peticionNotaSimpleRegistroPropiedad xmlns="http://www.aocat.net/registradors">
+	<datosRegistrales>
+		<registro>0</registro>
+		<municipio>0</municipio>
+		<provincia>0</provincia>
+		<seccion>0</seccion>
+		<finca>0</finca>
+		<subfinca>String</subfinca>
+		<duplicado>String</duplicado>
+		<datosAdicionales>String</datosAdicionales>
+	</datosRegistrales>
+	<observaciones>String</observaciones>
+</peticionNotaSimpleRegistroPropiedad>

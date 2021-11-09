@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peticionNotaLocalizacionRegistroPropiedad xmlns="http://www.aocat.net/registradors">
+	<datosTitular>
+		<nif>String</nif>
+		<maxFincas>0</maxFincas>
+		<tipo>0</tipo>
+		<derecho>0</derecho>
+	</datosTitular>
+	<observaciones>String</observaciones>
+</peticionNotaLocalizacionRegistroPropiedad>

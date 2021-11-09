@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<respuestaNotaLocalizacionRegistroPropiedad xmlns="http://www.aocat.net/registradors">
+	<datosTitular>
+		<nif>String</nif>
+		<maxFincas>0</maxFincas>
+		<tipo>0</tipo>
+		<derecho>0</derecho>
+	</datosTitular>
+	<observaciones>String</observaciones>
+	<codigoResultado>0</codigoResultado>
+	<literalError>String</literalError>
+	<informacion>
+		<tipoRespuesta>0</tipoRespuesta>
+		<registro>0</registro>
+		<identificador>String</identificador>
+		<fichero>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</fichero>
+		<texto>String</texto>
+	</informacion>
+</respuestaNotaLocalizacionRegistroPropiedad>
