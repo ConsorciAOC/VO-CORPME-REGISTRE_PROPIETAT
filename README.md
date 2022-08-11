@@ -2,6 +2,22 @@
 
 # **Via Oberta – Registre de la Propietat**
 
+## INDEX
+
+- [1. Introducció](#1)
+- [2. Transmissions de dades disponibles](#2)
+- [3. Missatgeria del servei](#3)
+   * [3.1 3.1 Nota simple (NOTA\_SIMPLE)](#3.1)
+        * [3.1.1 Petició – dades genèriques](#3.1.1)
+		* [3.1.2 Petició – dades específiques](#3.1.2)
+		* [3.1.3 Resposta – dades específiques](#3.1.3)
+   * [3.2 Nota de localización (NOTA\_LOCALITZACIO)](#3.2)
+        * [3.2.1 Petició – dades genèriques](#3.2.1)
+		* [3.2.2 Petició – dades específiques](#3.2.2)
+		* [3.2.3 Resposta – dades específiques](#3.2.3)
+   * [3.3 Tipus de resposta](#3.3)
+- [4. Joc de proves](#4)
+
 
 **Històric de revisions**
 
@@ -15,7 +31,7 @@
 | V2.0 | 02/09/2010 | Roger Noguera Arnau | Suport a consultes per altres dades. |
 
 
-# 1 Introducció
+# 1 Introducció <a name="1"></a>
 
 Aquest document detalla la missatgeria associada al servei del Registre de la Propietat.
 
@@ -27,7 +43,7 @@ Per poder realitzar la integració cal conèixer prèviament la següent documen
 [PCI]:https://github.com/ConsorciAOC/PCI
 
 
-# 2 Transmissions de dades disponibles
+# 2 Transmissions de dades disponibles <a name="2"></a>
 
 Les dades disponibles a través del servei són les que es presenten a continuació:
 
@@ -45,19 +61,19 @@ Les dades disponibles a través del servei són les que es presenten a continuac
 
 ---
 
-# 3 Missatgeria dels serveis
+# 3 Missatgeria del servei <a name="3"></a>
 
 A continuació es detalla la missatgeria corresponent al bloc de dades específiques de les modalitats de consum del producte REGISTRE\_PROPIETAT.
 
-## 3.1 ota simple (NOTA\_SIMPLE)
+## 3.1 Nota simple (NOTA\_SIMPLE) <a name="3.1"></a>
 
-### 3.1.1 Petició – dades genèriques
+### 3.1.1 Petició – dades genèriques <a name="3.1.1"></a>
 
 | _Element_ | _Descripció_ |
 | --- | --- |
 | Peticion/Atributos/IdSolicitanteOriginal | Codi de requeridor autoritzat al CORPME emprat a efectes de facturació (en la majoria de casos coincidirà amb el valor de l&#39;element *IdentificadorSolicitante* i només serà diferent per aquells requeridors amb jerarquia de departaments que impliqui facturació independent). |
 
-### 3.1.2 Petició – dades específiques
+### 3.1.2 Petició – dades específiques <a name="3.1.2"></a>
 
 Per obtenir una nota simple, cal informar de manera obligatòria una de les següents dades:
 
@@ -114,7 +130,7 @@ Per obtenir una nota simple, cal informar de manera obligatòria una de les seg�
 
 ---
 
-### 3.1.3 Resposta – dades específiques
+### 3.1.3 Resposta – dades específiques <a name="3.1.3"></a>
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -134,16 +150,16 @@ Per obtenir una nota simple, cal informar de manera obligatòria una de les seg�
 
 ![2](captures/2.png)
 
-## 3.2 Nota de localización (NOTA\_LOCALITZACIO)
+## 3.2 Nota de localización (NOTA\_LOCALITZACIO) <a name="3.2"></a>
 
-### 3.2.1 Petició – dades genèriques
+### 3.2.1 Petició – dades genèriques <a name="3.2.1"></a>
 
 | _Element_ | _Descripció_ |
 | --- | --- |
 | Peticion/Atributos/IdSolicitanteOriginal | Codi de requeridor autoritzat al CORPME emprat a efectes de facturació (en la majoria de casos coincidirà amb el valor de l&#39;element *IdentificadorSolicitante* i només serà diferent per aquells requeridors amb jerarquia de departaments que impliqui facturació independent). |
 
 
-### 3.2.2 Petició – dades específiques
+### 3.2.2 Petició – dades específiques <a name="3.2.2"></a>
 
 Anàlogament a les notes simples, per obtenir una nota de localització, cal informar de manera obligatòria les dades del titular.
 
@@ -160,7 +176,7 @@ Anàlogament a les notes simples, per obtenir una nota de localització, cal inf
 
 ![3](captures/3.png)
 
-### 3.2.3 Resposta – dades específiques
+### 3.2.3 Resposta – dades específiques <a name="3.2.3"></a>
 
 | _Element_ | _Descripció_ |
 | --- | --- |
@@ -177,7 +193,7 @@ Anàlogament a les notes simples, per obtenir una nota de localització, cal inf
 
 ![4](captures/4.png)
 
-## 3.3Tipus de resposta
+## 3.3 Tipus de resposta <a name="3.3"></a>
 
 A continuación es detallen els codis de tipus de respuesta:
 
@@ -193,7 +209,7 @@ A continuación es detallen els codis de tipus de respuesta:
 | 24 | Denegació per finca inexistent. |
 | 30 | Avís d&#39;enviament per canal alternatiu. La informació no viatja en el XML, sinó que es fa arribar al requeridor de manera alternativa manual (per exemple, via correu electrònic). |
 
-# 4 Joc de proves
+# 4 Joc de proves <a name="4"></a>
 
 El _Colegio de Registradores de la Propiedad y Mercantiles de España_ (CORPME) respon manualment i sota demanda a les peticions de proves enviades contra el seu servei.
 
